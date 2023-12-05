@@ -19,6 +19,7 @@ class EditProfileScreen extends StatelessWidget {
         child: Scaffold(
       appBar: AppBar(),
       body: Obx(
+        
         () => Column(
           mainAxisSize: MainAxisSize.min,
           children: [
